@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="app.js" defer></script>
+  
+    <link rel="stylesheet" href="style.css">
+    <title>Roman English Ahmadau</title>
+</head>
+<body>
+    <div class="m-5 lg:m-22">
+    <div class="flex justify-between lg:justify-between items-center w-full sticky top-0 bg-[#0E012D]">
+        <div>
+            <img class="p-4" src="img/ea.svg" alt="logo ea">
+        </div>
+        <div id="lg-nav" hidden>
+            <ul class="text-white flex">
+                <li id="nav" class="p-4">Home</li>
+                <li class="p-4">Project</li>
+                <li class="p-4">About me</li>
+            </ul>
+        </div>
+        <div class="" id="dropdown" hidden>
+             <ion-icon id="mobile-nav" class="text-[#1AD74F]" size="large" name="menu-sharp"></ion-icon>
+             <div id="mobile" class="bg-white  absolute top-0 left-0 h-[100vh] w-full" hidden>
+                    <ion-icon id="close-nav" class="text-[red] m-5 absolute right-[0]" size="large" name="close-circle"></ion-icon>
+                    <ul class="text-black m-14">
+                    <li class="p-4 text-[1.5rem] text-center">Home</li>
+                    <li class="p-4 text-[1.5rem] text-center">Project</li>
+                    <li class="p-4 text-[1.5rem] text-center">About me</li>
+                </ul>
+             </div>
+        </div>
+    </div>
+    <section class="comparisonSection">
+    <div class="lg:flex lg:items-center lg:justify-around">
+        <div class="text-white m-5 ">
+            <h1 class="text-4xl font-bold lg:text-5xl leading-normal lg:leading-normal"> <i> Hi, I'm <span class="text-[#1AD74F]">Roman</Ri:a></span><br>
+            front-end Developer & 
+            Graphic designer</i></h1>
+            <p class="mt-5 font-[300]">
+                Currently located in Bologna,
+                i love Creating Cool and interactive Design...
+            </p>
+        </div>
+        <div class="salsa">
+            <img src="img/sal.png" alt="">
+        </div>
+        </div>
+        <div class="flex justify-center lg:justify-start gap-[3rem]">
+            <button class="bg-white p-3 px-7 rounded-xl">Get in touch</button>
+            <button id="download" class="border-[3px] border-[#1AD74F] p-3 px-7 rounded-xl text-white"><a href="roman.pdf">Download CV</a></button>
+        </div>
+    </section>
+    <section class="lg:flex lg:items-center">
+        <div data-speed="0.5" class="w-full">
+            <img src="/img/problem.svg" alt="cube">
+        </div>
+        <div class="">
+            <h1 class="text-2xl font-bold lg:text-3xl leading-normal lg:leading-normal text-white text-center lg:text-left">Problem Solving</h1>
+            <p class="text-white mt-8 mx-6 lg:mx-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa maxime enim repellat quos tempora assumenda est inventore mollitia sapiente natus, vitae ex unde optio exercitationem debitis doloribus aspernatur quo esse.</p>
+        </div>
+    </section>
+    <section class="lg:flex lg:flex-row-reverse lg:items-center">
+        <div data-speed="2" class="w-full">
+            <img src="/img/about.svg" alt="aboutme">
+        </div>
+        <div class="">
+            <h1 class="text-2xl font-bold lg:text-3xl leading-normal lg:leading-normal text-white text-center lg:text-left">About me</h1>
+            <p class="text-white mt-8 mx-6 lg:mx-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa maxime enim repellat quos tempora assumenda est inventore mollitia sapiente natus, vitae ex unde optio exercitationem debitis doloribus aspernatur quo esse, lo</p>
+        </div>
+    </section>
+    <section class="lg:items-center mt-10">
+        <div class="mb-10">
+        <h1 class="text-2xl font-bold lg:text-3xl leading-normal lg:leading-normal text-white text-center">Recent Project</h1>
+        </div>
+        <div class="lg:flex lg:flex-row flex flex-col justify-center gap-10">
+        <img class="w-[100%] lg:w-[25%] rounded-xl" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fb8%2Ff1%2F34%2Fb8f134fe875bfcec7e7bcc6b50af7785.png&f=1&nofb=1&ipt=ab669760d2224b4b18bc7fbc598b24ab861bd51de49484ef84c44817b6d66120&ipo=images">
+        <img class="w-[1000%] lg:w-[25%] rounded-xl" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.prismic.io%2Fmilanote%2Fe9c154ed-36ff-495b-91df-74cf364ddfdc_UX%3AUI%2BProject%2BPlan%2BTemplate.png%3Fauto%3Dcompress%2Cformat%26w%3D1140&f=1&nofb=1&ipt=1156ecb443ed73060a1193b8edb940f1e2ee66028d6234347d0c0de10ba3faf1&ipo=images">
+        </div>
+    </section>
+    <section>
+        <div class="m-10">
+            <h1 class="text-2xl font-bold lg:text-3xl leading-normal lg:leading-normal text-white text-center">Let’s make something amazing</h1>
+            <p class="text-center text-[#1AD74F]">Say something</p>
+        </div>
+    </section>
+    <div class="block lg:flex lg:mx-auto lg:w-[50%]">
+        <form class="block lg:mx-auto lg:w-[50%]" action="" method="post">
+        <input class="w-full lg:w-full rounded-lg lg:mr-5 pl-5" type="text" placeholder="email">
+        <br>
+        <textarea class="w-full lg:w-full rounded-lg lg:mr-5 pl-5 h-[20vh] mt-5" name=""></textarea>
+        <button class="p-3 px-10 bg-[#1AD74F] rounded-lg mt-7 lg:mt-5 w-full lg:w-40" type="submit">send</button>
+        </form>
+    </div>
+    </div>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
+<script src="./js/GSDevTools.min.js"></script>
+</body>
+<footer class="bg-white h-[10vh] mt-10">
+    <div>
+         <div class="m-10 mb-20 flex items-center">
+            <img class="p-4" src="img/eatop.svg" alt="logo ea">
+        </div>
+    </div>
+</footer>
+</html>
